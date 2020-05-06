@@ -37,8 +37,6 @@ services:
     environment:
       SERVER_NAME: localhost
       ELASTICSEARCH_URL: http://elasticsearch1:9200/
-      ELASTICSEARCH_USERNAME: admin
-      ELASTICSEARCH_PASSWORD: ADmin01
     ports:
       - 5601:5601
     volumes:
